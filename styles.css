@@ -1,0 +1,131 @@
+body {
+  margin: 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #124e78;
+}
+
+.header h2 {
+  color: white;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.header_nav a {
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.body_style {
+  margin-top: 70px;
+  padding: 0 16px;
+}
+
+.body_style .grid_system {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 0;
+  gap: 16px;
+}
+
+.card_layout {
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 2px;
+  height: 480px;
+  width: 270px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card_layout h4 {
+  line-height: 0%;
+  padding-left: 5px;
+}
+
+.card_layout p {
+  height: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: initial;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+
+.img_rounded {
+  height: 280px;
+  width: 270px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  background-color: #124e78;
+}
+
+.top_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.product_part {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+button {
+  background: #124e78;
+  border: 1px solid #124e78;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 16px;
+  min-height: 20px;
+  outline: 0;
+  padding: 7px 7px;
+  text-align: center;
+}
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #124e78;
+}
+
+button:active {
+  opacity: 0.5;
+}
